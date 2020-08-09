@@ -120,6 +120,10 @@
     gap: 1.6rem;
   }
 
+  #page-teacher-form main .schedule-item + .schedule-item{
+    margin-top: 1.6rem;
+  }
+
   #page-teacher-form main .schedule-item .input-block {
     margin-top: 0 !important;
   }
