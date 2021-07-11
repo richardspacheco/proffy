@@ -6,7 +6,7 @@ import api from '../../services/api';
 import logoImage from '../../assets/images/logo.svg';
 import landingImage from '../../assets/images/landing.svg';
 import studyIcon from '../../assets/images/icons/study.svg';
-import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
+import teachIcon from '../../assets/images/icons/teach.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
 import './styles.css';
@@ -33,11 +33,11 @@ function Landing() {
         <div className="buttons-container">
           <Link to="/study" className="study">
             <img src={studyIcon} alt="" />
-            Estudar
+            Aprender
           </Link>
-          <Link to="/give-classes" className="give-classes">
-            <img src={giveClassesIcon} alt="" />
-            Dar aulas
+          <Link to="/teach" className="teach">
+            <img src={teachIcon} alt="" />
+            Ensinar
           </Link>
         </div>
 
